@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 800px;
+    height: 417px;
+    background: url("images/Free\ Vector\ _\ Realistic\ glossy\ plastic\ balls\ background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login{
+    background: rgba(255, 255, 255, 0.21);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(5.2px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius:240px;
+    padding: 30px;
+    /* background-color: rgba(203, 203, 200, 0.39); */
+}
+.login .inner{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.login h1{
+    color: rgb(255, 255, 255);
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+}
+.login form input,
+.login form button{
+    width: 100%;
+    padding: 8px 5px;
+    margin: 5px auto;
+    outline: none;
+    border: 1px solid rgb(244, 244, 244);
+    font-family:cursive;
+}
+.login form input::placeholder{
+    color: rgb(184, 139, 226);
+    padding: 3px;
+}
+.login form a{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    font-size: 12px;
+}
+.login form button{
+    width: 40%;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: rgb(170, 105, 231);
+    font-size: 16px;
+    font-weight: 600;
+}
